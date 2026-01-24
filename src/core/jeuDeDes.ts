@@ -81,10 +81,12 @@ export class JeuDeDes {
         const v1 = this._d1.valeur;
         const v2 = this._d2.valeur;
         const v3 = this._d3.valeur;
-        return v1 + v2 + v3;
+        const somme = v1 + v2 + v3;
+        return somme;
     }
 
-    public redemarrerJeu(): void {
+
+    public redemarrerJeu() {
         this._joueurs.clear();
     }
 
