@@ -77,6 +77,10 @@ export class JeuDeDes {
         const somme = v1 + v2;
         return somme;
     }
+    public redemarrerJeu(): void {
+        this._joueurs.clear();
+    }
+
 
     public get joueurs() {
         return JSON.stringify(Array.from(this._joueurs.values()));

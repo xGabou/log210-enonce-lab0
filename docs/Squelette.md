@@ -227,7 +227,14 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, redémarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-redemarrerJeu.puml)
+![Diagramme de séquence, redémarrerJeu](docs/modeles/rdcu-redemarrerJeu/rdcu-redemarrerJeu.svg)
+
+### Diagramme de classes logicielles
+
+![Diagramme de classes logicielles](docs/modeles/App/App.svg)
+
+
+
 
 
 [README.md](../README.md)

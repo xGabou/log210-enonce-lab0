@@ -4,16 +4,16 @@ skinparam defaultfontname Verdana
 title RDCU pour redémarrerJeu
 
 participant ":JeuDeDes" as c
-participant "joueurs:\nMap<String,Joueur>" as j
+participant "joueurs: Map<String, Joueur>" as j
 
-->c : redemarrerJeu()
+-> c : redemarrerJeu()
 note over c,j
 selon Contrôleur
 (JeuDeDés est l'objet racine)
 end note
 
-c->j : clear()
-note right
+c -> j : clear()
+note right of j
 selon Expert
 end note
 
