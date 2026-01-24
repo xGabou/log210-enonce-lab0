@@ -22,7 +22,14 @@ describe('GET /api/v1/jeu/jouer/:id', () => {
             expect(resultat.lancers).toBe(i + 1);
             expect(resultat.v1).toBeWithin(1, 7);
             expect(resultat.v2).toBeWithin(1, 7);
-            expect(resultat.somme).toBe(resultat.v1 + resultat.v2);
+            expect(resultat.v3).toBeWithin(1, 7);
+
+            expect(resultat.somme).toBe(resultat.v1 + resultat.v2 + resultat.v3);
+            expect(resultat.somme).toBeWithin(3, 20);
+
+            const gagne = resultat.somme <= 10;
+            expect(resultat.message).toBe(`Vous avez ${gagne ? "gagné!!!" : "perdu."}`);
+
             expect(resultat.nom).toBe(testNom1);
         });
     }
