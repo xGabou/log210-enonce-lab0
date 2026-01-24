@@ -227,11 +227,11 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, redémarrerJeu](docs/modeles/rdcu-redemarrerJeu/rdcu-redemarrerJeu.svg)
+![Diagramme de séquence, redémarrerJeu](modeles/rdcu-redemarrerJeu/rdcu-redemarrerJeu.svg)
 
 ### Diagramme de classes logicielles
 
-![Diagramme de classes logicielles](docs/modeles/App/App.svg)
+![Diagramme de classes logicielles](modeles/App/App.svg)
 
 
 
